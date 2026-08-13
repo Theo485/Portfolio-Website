@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# Build / output
+dist/
+build/
+.cache/
+.parcel-cache/
+out/
+public/build/
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Env files / secrets
+.env
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Tests / coverage
+coverage/
+.pytest_cache/
+
+# Misc
+*.bak
